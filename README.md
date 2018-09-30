@@ -10,9 +10,10 @@ The global anchor method is a powerful tool for comparing language usage between
 In particular, we showed that the global anchor method is 
 - theoretically as powerful as the alignment method, 
 - practically more widely applicable and easier to implement than the alignment method, 
-- reveals finer structures than frequency-based methods (e.g. (Pechenick et. al.) [Characterizing the Google Books corpus: Strong limits to inferences of socio-cultural and linguistic evolution](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137041))
+- reveals finer structures than frequency-based methods (e.g. Pechenick et. al. [Characterizing the Google Books corpus: Strong limits to inferences of socio-cultural and linguistic evolution](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137041))
 
 Here is a short overview of what is in this directory.
+
 Directory | What's in it?
 --- | ---
 `equivalence.py` | In the paper we showed that the alignment and global anchor methods, when viewed as metrics, are equivalent. This provides numerical verification for that claim.
@@ -24,5 +25,7 @@ Directory | What's in it?
 
 
 We also provides a set of processed corpora:
+
+Dataset name | Download
 --- | ---
 Google Books | [Google Books Ngram Dataset](https://books.google.com/ngrams) (We have trained a set of word vectors for years between 1800-2008, which can be found [here](https://drive.google.com/file/d/1TDBCLHzmt8yu2LVs6Ragl_wP8tvkFLZ-/view?usp=sharing)) 
