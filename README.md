@@ -1,8 +1,8 @@
 # Global Anchor Method for Corpus Dissimilarity and Domain Transferrability 
 
-This is the repo for the experiments in the paper `The Global Anchor Method for Quantifying Linguistic Shifts and Domain Adaptation'. 
+This is the repo for the experiments and collected corpora in the paper `The Global Anchor Method for Quantifying Linguistic Shifts and Domain Adaptation'. 
 
-Paper: https://papers.nips.cc/paper/8152-the-global-anchor-method-for-quantifying-linguistic-shifts-and-domain-adaptation
+Paper: https://papers.nips.cc/paper/8152-the-global-anchor-method-for-quantifying-linguistic-shifts-and-domain-adaptation <br/>
 arXiv Category Corpora: https://gitlab.com/vinsachi/arxiv-category-corpora
 
 Bibtex:
@@ -43,5 +43,4 @@ We also provides a set of processed corpora:
 Dataset name | Download
 --- | ---
 Google Books | [Google Books Ngram Dataset](https://books.google.com/ngrams) (We have trained a set of word vectors for years between 1800-2008, which can be found [here](https://drive.google.com/file/d/1TDBCLHzmt8yu2LVs6Ragl_wP8tvkFLZ-/view?usp=sharing)) 
-
 arXiv Category Corpora | [Repository](https://gitlab.com/vinsachi/arxiv-category-corpora) This repo contains text corpora of academic papers separated by category from arXiv submitted between January 2007 - December 2017
