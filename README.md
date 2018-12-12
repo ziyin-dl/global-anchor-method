@@ -6,7 +6,7 @@ Paper: https://papers.nips.cc/paper/8152-the-global-anchor-method-for-quantifyin
 arXiv Category Corpora: https://gitlab.com/vinsachi/arxiv-category-corpora
 
 ```
-@inproceedings{yin2018lingshifts,
+@inproceedings{
   title={Quantifying Linguistic Shifts: The Global Anchor Method and Its Applications},
   author={Yin, Zi and Sachidananda, Vin and  Prabhakar, Balaji},
   booktitle={Advances in Neural Information Processing Systems (NIPS)},
