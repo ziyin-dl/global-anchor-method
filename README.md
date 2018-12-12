@@ -9,7 +9,7 @@ arXiv Category Corpora: https://gitlab.com/vinsachi/arxiv-category-corpora
 @inproceedings{
   title={Quantifying Linguistic Shifts: The Global Anchor Method and Its Applications},
   author={Yin, Zi and Sachidananda, Vin and  Prabhakar, Balaji},
-  booktitle={Advances in Neural Information Processing Systems (NIPS)},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2018}
 }
 ```
