@@ -1,6 +1,20 @@
 # Global Anchor Method for Corpus Dissimilarity and Domain Transferrability 
 
-This is the repo for the experiments in the paper `Quantifying Linguistic Shifts: the Global Anchor Method and Its Applications`  
+This is the repo for the experiments in the paper `The Global Anchor Method for Quantifying Linguistic Shifts and Domain Adaptation'. 
+
+Paper: https://papers.nips.cc/paper/8152-the-global-anchor-method-for-quantifying-linguistic-shifts-and-domain-adaptation
+arXiv Category Corpora: https://gitlab.com/vinsachi/arxiv-category-corpora
+
+Bibtex:
+
+```
+@inproceedings{yin2018lingshifts,
+  title={Quantifying Linguistic Shifts: The Global Anchor Method and Its Applications},
+  author={Yin, Zi and Sachidananda, Vin and  Prabhakar, Balaji},
+  booktitle={Advances in Neural Information Processing Systems (NIPS)},
+  year={2018}
+}
+```
 
 The global anchor method is a powerful tool for comparing language usage between different corpora through word vectors. It can be used for
 - Transfer learning: determining whether a model trained on one corpus will transfer to another. If the corpora are very different in terms of their language usage, transfer learning may not perform well.
@@ -9,7 +23,7 @@ The global anchor method is a powerful tool for comparing language usage between
 
 In particular, we showed that the global anchor method is 
 - theoretically as powerful as the alignment method, 
-- practically more widely applicable and easier to implement than the alignment method, 
+- practically more widely applicable and easier to implement than the alignment method (i.e. compare embeddings with different dimensionalities) 
 - reveals finer structures than frequency-based methods (e.g. Pechenick et. al. [Characterizing the Google Books corpus: Strong limits to inferences of socio-cultural and linguistic evolution](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137041))
 
 Here is a short overview of what is in this directory.
@@ -29,3 +43,5 @@ We also provides a set of processed corpora:
 Dataset name | Download
 --- | ---
 Google Books | [Google Books Ngram Dataset](https://books.google.com/ngrams) (We have trained a set of word vectors for years between 1800-2008, which can be found [here](https://drive.google.com/file/d/1TDBCLHzmt8yu2LVs6Ragl_wP8tvkFLZ-/view?usp=sharing)) 
+
+arXiv Category Corpora | [Repository](https://gitlab.com/vinsachi/arxiv-category-corpora) This repo contains text corpora of academic papers separated by category from arXiv submitted between January 2007 - December 2017
