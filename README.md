@@ -1,4 +1,4 @@
-# Global Anchor Method for Corpus Dissimilarity and Domain Transferrability 
+# The Global Anchor Method for Quantifying Linguistic Shifts and Domain Adaptation
 
 This is the repo for the experiments and collected corpora in the paper `The Global Anchor Method for Quantifying Linguistic Shifts and Domain Adaptation', NeurIPS 2018.
 
