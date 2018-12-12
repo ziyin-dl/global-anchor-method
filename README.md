@@ -1,11 +1,9 @@
 # Global Anchor Method for Corpus Dissimilarity and Domain Transferrability 
 
-This is the repo for the experiments and collected corpora in the paper `The Global Anchor Method for Quantifying Linguistic Shifts and Domain Adaptation'. 
+This is the repo for the experiments and collected corpora in the paper `The Global Anchor Method for Quantifying Linguistic Shifts and Domain Adaptation', NeurIPS 2018.
 
 Paper: https://papers.nips.cc/paper/8152-the-global-anchor-method-for-quantifying-linguistic-shifts-and-domain-adaptation <br/>
 arXiv Category Corpora: https://gitlab.com/vinsachi/arxiv-category-corpora
-
-Bibtex:
 
 ```
 @inproceedings{yin2018lingshifts,
@@ -19,10 +17,10 @@ Bibtex:
 The global anchor method is a powerful tool for comparing language usage between different corpora through word vectors. It can be used for
 - Transfer learning: determining whether a model trained on one corpus will transfer to another. If the corpora are very different in terms of their language usage, transfer learning may not perform well.
 - Discover linguistic shifts: one can use this method to determine the rate at which language changes with respect to time.
-- Discover domain variations: one can use this method to discover whether language adapts to specific domains.
+- Discover domain variations: one can use this method to discover how language deviates in different domains.
 
 In particular, we showed that the global anchor method is 
-- theoretically as powerful as the alignment method, 
+- theoretically as powerful as the alignment method
 - practically more widely applicable and easier to implement than the alignment method (i.e. compare embeddings with different dimensionalities) 
 - reveals finer structures than frequency-based methods (e.g. Pechenick et. al. [Characterizing the Google Books corpus: Strong limits to inferences of socio-cultural and linguistic evolution](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137041))
 
